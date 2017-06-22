@@ -162,6 +162,10 @@ Vue.use(VueMaterial)
 Vue.use(Vuex)
 ```
 
+# Next?
+
+Go for [Part 2](part2.md)
+
 # The project
 
 The full project, frozen is available on

@@ -99,8 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
-<<<<<<< HEAD
 
 __javascript__/
 node_modules/
 build.js
+tmpl.js

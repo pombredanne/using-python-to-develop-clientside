@@ -1,3 +1,4 @@
+import common
 from url import fmap
 
 Vue = require('vue')
