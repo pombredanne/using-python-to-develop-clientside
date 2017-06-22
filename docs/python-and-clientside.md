@@ -18,6 +18,7 @@ source webenv/bin/activate
 pip install transcrypt
 mkdir todoapp
 yarn init # You can also use NPM here
+yarn add vue vue-router
 mkdir src
 ```
 
@@ -115,3 +116,53 @@ And magically fire up localhost:2015, bam, a boilerplate for reactive, Pythonic 
 This surely works :D
 
 ![Screenshot](screenshot-this-works.png)
+
+# Going next
+
+## UI framework
+
+I personally like VueMaterial because it looks amazing, honestly and it's also FOSS, I know there are other frameworks, but I'm obsessed with VueMaterial, sometimes because I don't want to require('jquery')...
+
+Let's add it to our project
+
+```bash
+yarn add vue-material
+```
+
+### main.py
+Just append this line where we were require()-ing vue-router, so it looks like this.
+
+```Python
+Vue = require('vue')
+VueRouter = require('vue-router')
+VueMaterial = require('vue-material')
+Vue.use(VueRouter)
+Vue.use(VueMaterial)
+```
+
+## State management
+
+We also need a state management library, Vue recommends Vuex, so let's use that
+
+Let's add it maybe?
+
+```bash
+yarn add vuex
+```
+
+### main.py
+
+```Python
+Vue = require('vue')
+VueRouter = require('vue-router')
+VueMaterial = require('vue-material')
+Vuex = require('vuex')
+Vue.use(VueRouter)
+Vue.use(VueMaterial)
+Vue.use(Vuex)
+```
+
+# The project
+
+The full project, frozen is available on
+[GitHub](https://github.com/the1337guy/using-python-to-develop-clientside)

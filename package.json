@@ -6,7 +6,9 @@
   "license": "MIT",
   "dependencies": {
     "vue": "^2.3.4",
-    "vue-router": "^2.6.0"
+    "vue-material": "^0.7.2",
+    "vue-router": "^2.6.0",
+    "vuex": "^2.3.1"
   },
   "browser": {
     "vue": "vue/dist/vue.common.js"
