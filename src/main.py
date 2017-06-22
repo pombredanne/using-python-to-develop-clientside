@@ -2,7 +2,11 @@ from url import fmap
 
 Vue = require('vue')
 VueRouter = require('vue-router')
+VueMaterial = require('vue-material')
+Vuex = require('vuex')
 Vue.use(VueRouter)
+Vue.use(VueMaterial)
+Vue.use(Vuex)
 
 window.noop = lambda: False
 
