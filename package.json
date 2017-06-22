@@ -1,0 +1,14 @@
+{
+  "name": "using-python-to-develop-clientside",
+  "version": "1.0.0",
+  "main": "build.js",
+  "author": "Maharshi Mukherjee <rizumukherjee337@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.3.4",
+    "vue-router": "^2.6.0"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  }
+}
